@@ -514,6 +514,24 @@
 //     }
 
 // }
+// import java.util.Scanner;
+// public class Main{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         String Day = sc.nextLine();
+//         switch(Day){
+//             case "mon" -> System.out.println("aaj toh monday hai");
+//             case "tue" -> System.out.println("aaj toh tuesday hai");
+//             case "wed" -> System.out.println("aaj toh wednusday hai");
+//             case "thu" -> System.out.println("aaj toh thusday hai");
+//             case "fri" -> System.out.println("aaj toh friday hai");
+//             case "sat" -> System.out.println("aaj toh sat hai");
+//             case "sun" -> System.out.println("aaj toh sunday hai");
+//             default -> System.out.println("day bhi ni dale ja rhe tere se");
+//         }
+//         sc.close();
+//     }
+// }
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
