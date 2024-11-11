@@ -582,41 +582,6 @@
 //         cc.close();
 //     }
 // }
-// public class Main {
-//     public static void main(String[] args) {
-//         int[][] mat1 = {{2, 3, 4}, {5, 6, 4}, {9, 7, 4}};
-//         int[][] mat2 = {{9, 7, 8}, {6, 4, 3}, {4, 5, 3}};
-//         int[][] result = new int[3][3];
-
-//         for (int i = 0; i < mat1.length; i++) {
-//             for (int j = 0; j < mat1[i].length; j++) {
-//                 result[i][j] = mat1[i][j] + mat2[i][j];
-//                 System.out.format("Setting the value of i=%d and j=%d \n", i, j);
-//             }
-//         }
-
-//         for (int i = 0; i < result.length; i++) {
-//             for (int j = 0; j < result[i].length; j++) {
-//                 System.out.print(result[i][j] + " ");
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
 public class Main{
-    static int mera_func(int x, int y){
-        int z;
-        if(x>y){
-            z = x+y;
-        }
-        else{
-           z = x-y;
-        }
-      return z;
-    }   
-
-    public static void main(String[] args) {
-        int c = mera_func(2000, 4000);
-        System.out.println(c);
-    }
+    
 }
