@@ -603,20 +603,46 @@
 //         }
 //     }
 // }
-public class Main{
-    static int mera_func(int x, int y){
-        int z;
-        if(x>y){
-            z = x+y;
-        }
-        else{
-           z = x-y;
-        }
-      return z;
-    }   
+// public class Main{
+//     static int mera_func(int x, int y){
+//         int z;
+//         if(x>y){
+//             z = x+y;
+//         }
+//         else{
+//            z = x-y;
+//         }
+//       return z;
+//     }   
 
+//     public static void main(String[] args) {
+//         int c = mera_func(2000, 4000);
+//         System.out.println(c);
+//     }
+// }
+// public class Main{
+//     static void me_nhi_krunga_return(){
+//         System.out.println("Nhi krta me return kuch isiliye \n mere andr void use kiya gya hai! ");
+//     }
+//     public static void main(String[] args) {
+//         me_nhi_krunga_return();
+//     }
+// }
+public class Main{
+    // static void change1(int a){
+    //     a = 67;
+    // }
+    static void change2(int[] gma){
+        gma[0] = 90;
+    }
+    // public static void main(String[] args) {
+    //     int x = 78;
+    //     change1(x);
+    //     System.out.println("dekhte hai output kya ayega :"+x);
+    // }
     public static void main(String[] args) {
-        int c = mera_func(2000, 4000);
-        System.out.println(c);
+        int[] b = {78,24,64,24,13,56,75,75,4,57,4,64};
+        change2(b);
+        System.out.println("dekhte hai kya change rhega: "+b[0]);
     }
 }

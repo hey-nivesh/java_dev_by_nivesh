@@ -582,6 +582,3 @@
 //         cc.close();
 //     }
 // }
-public class Main{
-    
-}
