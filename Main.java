@@ -628,21 +628,33 @@
 //         me_nhi_krunga_return();
 //     }
 // }
-public class Main{
-    // static void change1(int a){
-    //     a = 67;
-    // }
-    static void change2(int[] gma){
-        gma[0] = 90;
-    }
-    // public static void main(String[] args) {
-    //     int x = 78;
-    //     change1(x);
-    //     System.out.println("dekhte hai output kya ayega :"+x);
-    // }
-    public static void main(String[] args) {
-        int[] b = {78,24,64,24,13,56,75,75,4,57,4,64};
-        change2(b);
-        System.out.println("dekhte hai kya change rhega: "+b[0]);
-    }
-}
+// public class Main{
+//     // static void change1(int a){
+//     //     a = 67;
+//     // }
+//     static void change2(int[] gma){
+//         gma[0] = 90;
+//     }
+//     // public static void main(String[] args) {
+//     //     int x = 78;
+//     //     change1(x);
+//     //     System.out.println("dekhte hai output kya ayega :"+x);
+//     // }
+//     public static void main(String[] args) {
+//         int[] b = {78,24,64,24,13,56,75,75,4,57,4,64};
+//         change2(b);
+//         System.out.println("dekhte hai kya change rhega: "+b[0]);
+//     }
+// }
+// public class Main{
+//     static int new_func(int ...ary){
+//         int result=0;
+//         for(int a : ary){
+//             result += a;
+//         }
+//         return result;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println("solving variable agrumnets problem the output is:"+ new_func(2,3,4,5,6,3));
+//     }
+// }
