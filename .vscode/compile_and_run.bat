@@ -1,7 +1,7 @@
 @echo off
-javac recu.java
+javac Main.java
 if %errorlevel% equ 0 (
-    java recu < input.txt > output.txt
+    java Main < input.txt > output.txt
 ) else (
     echo Compilation failed!
     pause

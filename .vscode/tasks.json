@@ -1,19 +1,22 @@
 {
     "version": "2.0.0",
     "tasks": [
-        {
-            "label": "Build and Run Java Program",
-            "type": "shell",
-            "command": "cmd",
-            "args": [
-                "/C",
-                "javac recu.java && java recu < input.txt > output.txt"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
+      {
+        "label": "Run Java Program",
+        "type": "shell",
+        "command": "javac Main.java && java Main < input.txt > output.txt",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "options": {
+          "shell": {
+            "executable": "cmd.exe",
+            "args": ["/c"]
+          }
         }
+      }
     ]
-}
+  }
+  

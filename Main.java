@@ -658,3 +658,13 @@
 //         System.out.println("solving variable agrumnets problem the output is:"+ new_func(2,3,4,5,6,3));
 //     }
 // }
+public class Main{
+    static double meramethod(int a, double y){
+        double z = a+y;
+        return z;
+    }
+    public static void main(String[] args) {
+        double z = meramethod(23, 89.87);
+        System.out.println(z);
+    }
+}
